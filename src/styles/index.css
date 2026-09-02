@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/inter";
+
+/* ---------------------------------------------------------------------- */
+/* Rijo Suplidora — sistema de diseño                                     */
+/* Paleta inspirada en las dos piedras insignia del negocio:              */
+/*  · Larimar  → azul turquesa profundo (identidad dominicana)            */
+/*  · Ámbar    → naranja cálido         (calidez / artesanía)             */
+/* ---------------------------------------------------------------------- */
+@theme {
+  --font-display: "Fraunces Variable", "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Larimar — azul turquesa oscuro (color de marca principal) */
+  --color-larimar-50: #eefbfb;
+  --color-larimar-100: #d3f2f3;
+  --color-larimar-200: #a9e4e7;
+  --color-larimar-300: #74cfd5;
+  --color-larimar-400: #3fb0b9;
+  --color-larimar-500: #23929d;
+  --color-larimar-600: #187581;
+  --color-larimar-700: #135e69;
+  --color-larimar-800: #0e4a54;
+  --color-larimar-900: #0c3d45;
+  --color-larimar-950: #062529;
+
+  /* Ámbar — naranja cálido (color de acento) */
+  --color-amber-50: #fef8ee;
+  --color-amber-100: #fdecd2;
+  --color-amber-200: #fad5a1;
+  --color-amber-300: #f7b76a;
+  --color-amber-400: #f39a3f;
+  --color-amber-500: #ec7f24;
+  --color-amber-600: #d2631a;
+  --color-amber-700: #ad4b18;
+  --color-amber-800: #8c3d1a;
+  --color-amber-900: #723419;
+  --color-amber-950: #3e190b;
+
+  --shadow-glow: 0 20px 60px -15px rgba(14, 92, 104, 0.35);
+  --shadow-glow-amber: 0 20px 60px -15px rgba(236, 127, 36, 0.35);
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-drift: drift 22s linear infinite;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+@keyframes drift {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(2%, 3%) rotate(6deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--color-larimar-950);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background-color: var(--color-amber-300);
+  color: var(--color-larimar-950);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.text-gradient-brand {
+  background-image: linear-gradient(100deg, var(--color-larimar-600), var(--color-larimar-400) 45%, var(--color-amber-400) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}

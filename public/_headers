@@ -1,0 +1,24 @@
+# Cloudflare Pages — reglas de caché.
+# Los assets con hash en el nombre (JS/CSS/fuentes generados por Vite) son
+# inmutables: se cachean por un año. El HTML se revalida siempre para que
+# los visitantes reciban el contenido más reciente en cada despliegue.
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.svg
+  Cache-Control: public, max-age=86400
+
+/*.xml
+  Cache-Control: public, max-age=3600
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin

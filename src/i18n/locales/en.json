@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "siteName": "Rijo Suplidora",
+    "slogan": "Connecting cultures, transforming memories"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Wholesale supplier of tourist gifts, souvenirs, and Larimar & Amber jewelry from the Dominican Republic.",
+    "columnsCompany": "Company",
+    "columnsContact": "Contact",
+    "rights": "All rights reserved.",
+    "legalNote": "is a trademark of {{legalName}}."
+  },
+  "common": {
+    "viewCatalog": "View catalog",
+    "contactUs": "Contact us",
+    "requestQuote": "Request a wholesale quote",
+    "viewProducts": "View all products",
+    "sendMessage": "Send message",
+    "writeWhatsapp": "Message us on WhatsApp",
+    "callUs": "Call us",
+    "viewOnMap": "View on Google Maps",
+    "learnMore": "Learn more",
+    "backHome": "Back to home",
+    "readMore": "Read more",
+    "years": "years of experience",
+    "sectionOurHistory": "Our history",
+    "language": "Language"
+  },
+  "home": {
+    "seo": {
+      "title": "Rijo Suplidora | Wholesale Gift Shop Supplier, Larimar & Amber Jewelry — Dominican Republic",
+      "description": "Rijo Suplidora is a wholesale supplier of souvenirs, handicrafts, and Larimar & Amber jewelry for gift shops, hotels, and tourist businesses across the Dominican Republic. Since 2017."
+    },
+    "hero": {
+      "eyebrow": "The #1 wholesale gift shop supplier in the Dominican Republic",
+      "title": "Connecting cultures, transforming memories",
+      "subtitle": "We distribute Larimar & Amber jewelry, souvenirs, handicrafts, and tourist gifts to gift shops, hotels, and businesses across the country.",
+      "ctaPrimary": "View product catalog",
+      "ctaSecondary": "Request information"
+    },
+    "intro": {
+      "eyebrow": "Who we are",
+      "title": "More than a supplier, a strategic ally",
+      "body": "We are a company specialized in the commercialization and distribution of tourist gifts, handicrafts, keepsakes, accessories, and cultural identity products, offering integral wholesale and retail solutions for the tourism and commercial sectors. We were born to connect domestic and international visitors with the essence, history, and cultural richness of the Dominican Republic.",
+      "cta": "Discover our story",
+      "imageAlt": "Display cases with Larimar and Amber jewelry at the Rijo Suplidora store"
+    },
+    "gemFeature": {
+      "eyebrow": "Our essence",
+      "title": "Larimar and Amber: the stones that represent our country",
+      "body": "We combine semi-precious stone jewelry with a complete selection of symbolic souvenirs from the Dominican Republic, so every gift becomes memorable and authentic.",
+      "larimarTitle": "Larimar",
+      "larimarBody": "The turquoise-blue gemstone exclusive to the Dominican Republic.",
+      "amberTitle": "Amber",
+      "amberBody": "Fossilized resin in warm tones, a symbol of our identity."
+    },
+    "valueProps": {
+      "eyebrow": "Value proposition",
+      "title": "A complete solution for your gift shop",
+      "items": [
+        { "title": "Wide product catalog", "body": "A competitive portfolio that keeps evolving." },
+        { "title": "Constant innovation", "body": "We continuously incorporate new trends, materials, and designs." },
+        { "title": "Permanent inventory", "body": "Availability to meet your business's demand." },
+        { "title": "Timely deliveries", "body": "Efficient logistics processes to deliver on time." },
+        { "title": "Personalized service", "body": "Closeness and support throughout every business relationship." },
+        { "title": "Differentiated products", "body": "Pieces that set your shelves apart from the competition." },
+        { "title": "Guaranteed quality", "body": "Every product meets high manufacturing and presentation standards." },
+        { "title": "Competitive commercial terms", "body": "Tailored offers to help your business grow." },
+        { "title": "Exclusive product development", "body": "Exclusive lines created to stand out in the market." },
+        { "title": "Specialized commercial advice", "body": "We help you choose the best assortment." }
+      ]
+    },
+    "portfolioPreview": {
+      "eyebrow": "Portfolio",
+      "title": "Everything your gift shop needs",
+      "subtitle": "Jewelry, souvenirs, handicrafts, clothing, bags, hats, inflatables, and much more — all from a single supplier.",
+      "cta": "Explore the full catalog"
+    },
+    "sectors": {
+      "eyebrow": "Who we serve",
+      "title": "A strategic ally for the entire tourism and commercial sector",
+      "list": [
+        "Tourist gift shops",
+        "Hotels & resorts",
+        "Airports",
+        "Cruise ports",
+        "Museums",
+        "Historic centers",
+        "Convenience stores",
+        "Theme parks",
+        "Shopping malls",
+        "Corporate gifts",
+        "Tour operators",
+        "Specialized retailers"
+      ]
+    },
+    "pillars": {
+      "eyebrow": "Why choose us",
+      "title": "Strategic pillars",
+      "items": [
+        { "title": "Operational Excellence", "body": "We continuously optimize our processes to guarantee speed, efficiency, and compliance." },
+        { "title": "Commercial Innovation", "body": "We continuously incorporate new trends, materials, and designs." },
+        { "title": "Superior Quality", "body": "Every product meets high manufacturing and presentation standards." },
+        { "title": "Customer Closeness", "body": "We build long-term relationships based on trust, service, and support." },
+        { "title": "Sustainable Development", "body": "We promote responsible practices with communities, suppliers, and the environment." }
+      ]
+    },
+    "ctaBanner": {
+      "title": "Ready to bring memorable keepsakes to your store?",
+      "subtitle": "Request our wholesale catalog and discover why we're the trusted supplier for shops, hotels, and tourist businesses across the Dominican Republic.",
+      "cta": "Contact us now"
+    },
+    "location": {
+      "eyebrow": "Showroom",
+      "title": "Visit us in Higüey, Punta Cana",
+      "cta": "Get directions"
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "About Us | History, Mission & Values — Rijo Suplidora",
+      "description": "Discover the story of Rijo Suplidora: from identifying a market need in Higüey in 2017 to becoming the #1 wholesale gift shop supplier in the Dominican Republic."
+    },
+    "hero": {
+      "eyebrow": "About us",
+      "title": "A Dominican company that turns products into memories",
+      "subtitle": "Discover our history, purpose, and the values that guide us."
+    },
+    "history": {
+      "eyebrow": "Our history",
+      "title": "From a market need to a national legacy",
+      "paragraphs": [
+        "Rijo Suplidora was born in 2017, after identifying a need among the business community of the municipality of Higüey, La Altagracia, who had to travel abroad to source merchandise for their tourism-related organizations. With the goal of meeting that need and merging the sale of semi-precious stone jewelry with a more complete offering of symbolic souvenirs of our country, this competitive proposal entered the market.",
+        "Today, Rijo Suplidora is the country's number-one wholesale supplier to gift shops, offering jewelry, costume jewelry, souvenirs, clothing, bags, hats, inflatables, and more — everything our clients need to offer an emblematic, memorable gift from our country.",
+        "We are the result of a great deal of professional preparation, mental and physical effort, and above all, time. Among the biggest challenges we've faced was becoming a supplier to hotel chains in the Dominican Republic, where today we hold the largest market share. We also had to be resilient through the COVID-19 pandemic: as part of the tourism sector, the hardest hit worldwide and slowest to recover, we restructured budgets, managed emergency funds, and, above all, encouraged and prepared our team to keep pursuing our vision. This is what took us from being an efficient company to being an effective one.",
+        "The Dominican Republic has received approximately 41,824,176 tourists, according to the Ministry of Tourism, from the year we opened through 2023 — and we're proud, as a national brand, to have played a part in the memorable gifts that have carried our country's spirit abroad.",
+        "Our commitment is to keep building a company recognized not only for what it sells, but for what it represents to an entire industry: a Dominican company that helps project our identity, culture, and essence to the world. Because when a visitor leaves our country carrying a small memento of our land, what may be a product to us can become a memory to them. That is the real reason we do what we do: turning products into memories, memories into stories, and stories into legacy."
+      ],
+      "closing": "Rijo Suplidora: a company born to fill a need, that found its true purpose in carrying a piece of the Dominican Republic out into the world."
+    },
+    "identity": {
+      "eyebrow": "Corporate identity",
+      "purposeTitle": "Purpose",
+      "purposeBody": "To inspire memorable experiences through products that represent the cultural identity of the Dominican Republic, creating value for our customers, suppliers, collaborators, and communities.",
+      "missionTitle": "Mission",
+      "missionBody": "To develop sustainable business relationships through the wholesale distribution of high-quality tourist gifts, offering a wide product portfolio, efficient logistics processes, ongoing innovation, and exceptional service that contributes to our clients' growth.",
+      "visionTitle": "Vision",
+      "visionBody": "To be the leading company in the Dominican Republic in the distribution and commercialization of tourist gifts, recognized for service excellence, commercial innovation, commitment to quality, and the ability to connect local culture with visitors from around the world.",
+      "essenceTitle": "Brand essence",
+      "essenceBody": "We connect cultures. We create memories. We drive experiences.",
+      "promiseTitle": "Brand promise",
+      "promiseBody": "To offer authentic, innovative, high-quality products, backed by reliable service, timely availability, and lasting business relationships."
+    },
+    "values": {
+      "eyebrow": "What defines us",
+      "title": "Corporate values",
+      "items": [
+        { "title": "Integrity", "body": "We act with transparency, honesty, and ethics in every decision." },
+        { "title": "Excellence", "body": "We strive to exceed expectations through continuous improvement." },
+        { "title": "Innovation", "body": "We turn ideas into growth opportunities." },
+        { "title": "Passion for Service", "body": "Our priority is creating extraordinary experiences for every customer." },
+        { "title": "Commitment", "body": "We keep our promises with responsibility and discipline." },
+        { "title": "Respect", "body": "We value people, cultural diversity, and business relationships." },
+        { "title": "Teamwork", "body": "We believe collaboration drives success." },
+        { "title": "Sustainability", "body": "We promote responsible, conscious growth." }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Business philosophy",
+      "quote": "We believe every memory tells a story, and every product has the power to connect people, cultures, and destinations.",
+      "body": "Our philosophy is to create value through business relationships built on trust, innovation, and excellence, offering products that convey identity and strengthen the experience of everyone who visits each place."
+    },
+    "personality": {
+      "eyebrow": "Brand personality",
+      "title": "Our brand is",
+      "items": ["Elegant", "Approachable", "Reliable", "Innovative", "Dynamic", "International", "Cultural", "Sophisticated", "Responsible", "Inspiring"]
+    },
+    "quality": {
+      "title": "Commitment to quality",
+      "body": "We are committed to offering products that meet the highest standards of quality, design, presentation, and functionality, backed by efficient processes and personalized attention that build trust and lasting business relationships."
+    },
+    "social": {
+      "title": "Social responsibility",
+      "body": "We contribute to strengthening the local economy by supporting artisans, entrepreneurs, and manufacturers, promoting sustainable practices, responsible trade, and respect for our cultural heritage."
+    },
+    "message": {
+      "title": "Institutional message",
+      "body": "We believe every destination deserves to be remembered through products that inspire emotion, preserve culture, and strengthen the visitor experience. We don't just distribute products; we deliver stories, identity, and memories that stand the test of time."
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Wholesale Catalog | Souvenirs, Handicrafts & Larimar/Amber Jewelry — Rijo Suplidora",
+      "description": "Explore our wholesale portfolio: Larimar & Amber jewelry, souvenirs, handicrafts, clothing, bags, hats, inflatables, and corporate gifts. Nationwide distribution in the D.R."
+    },
+    "hero": {
+      "eyebrow": "Wholesale catalog",
+      "title": "A complete portfolio for your gift shop",
+      "subtitle": "A wide product catalog, permanent inventory, and timely deliveries across the entire Dominican Republic."
+    },
+    "gemFeature": {
+      "eyebrow": "Our specialty",
+      "title": "Larimar & Amber Jewelry",
+      "body": "We combine semi-precious stone jewelry with symbolic souvenirs from our country: Larimar, the turquoise-blue gemstone exclusive to the Dominican Republic, and Amber, the warm-toned fossilized resin that is part of our identity."
+    },
+    "categories": {
+      "eyebrow": "Product portfolio",
+      "title": "Catalog categories",
+      "items": [
+        { "title": "Jewelry & Costume Jewelry (Larimar & Amber)", "body": "Handcrafted pieces in the Dominican Republic's most iconic gemstones." },
+        { "title": "Souvenirs & Handicrafts", "body": "Symbolic, authentic mementos of our culture." },
+        { "title": "Cultural Products", "body": "Items that project Dominican identity." },
+        { "title": "Decorative Items", "body": "Pieces for home decor and store display." },
+        { "title": "Clothing, Bags & Hats", "body": "Tropical, beach-inspired apparel and accessories." },
+        { "title": "Inflatables", "body": "Beach items for the high tourist season." },
+        { "title": "Corporate Gifts", "body": "Solutions for businesses that want to gift with identity." },
+        { "title": "Accessories", "body": "Complements that set every storefront apart." },
+        { "title": "Textiles", "body": "Textile pieces with a mark of authenticity." },
+        { "title": "Packaged Gourmet Products", "body": "Dominican flavors, ready to take home." },
+        { "title": "Personalized Items", "body": "Gifts with a unique, memorable touch." },
+        { "title": "Seasonal & Exclusive Lines", "body": "New products developed to stand out in the market." }
+      ]
+    },
+    "distribution": {
+      "eyebrow": "Distribution",
+      "title": "Coverage across the entire Dominican territory",
+      "body": "We supply gift shops, hotels, airports, cruise ports, museums, and businesses throughout the Dominican Republic, with permanent inventory and timely deliveries."
+    },
+    "ctaWholesale": {
+      "title": "Request your wholesale catalog",
+      "body": "Tell us about your business and we'll help you choose the best product assortment.",
+      "cta": "Request a quote"
+    }
+  },
+  "faq": {
+    "seo": {
+      "title": "Frequently Asked Questions | Rijo Suplidora",
+      "description": "Answers to the most common questions about our wholesale catalog, distribution coverage, payment methods, and how to contact Rijo Suplidora."
+    },
+    "hero": {
+      "eyebrow": "Help",
+      "title": "Frequently asked questions",
+      "subtitle": "Have another question? Reach out and we'll be glad to help."
+    },
+    "items": [
+      {
+        "q": "What is Rijo Suplidora?",
+        "a": "We are a Dominican company specialized in the wholesale commercialization and distribution of tourist gifts, handicrafts, souvenirs, and semi-precious stone jewelry, founded in 2017 in Higüey, La Altagracia."
+      },
+      {
+        "q": "What kind of products do you offer?",
+        "a": "Larimar & Amber jewelry and costume jewelry, souvenirs, handicrafts, cultural products, decorative items, clothing, bags, hats, inflatables, corporate gifts, textiles, packaged gourmet products, and personalized items."
+      },
+      {
+        "q": "Who do you sell to?",
+        "a": "We're a strategic partner for gift shops, hotels and resorts, airports, cruise ports, museums, historic centers, theme parks, shopping malls, tour operators, and specialized retailers, offering both wholesale and retail solutions."
+      },
+      {
+        "q": "What is your distribution coverage?",
+        "a": "We distribute across the entire territory of the Dominican Republic."
+      },
+      {
+        "q": "Where is your showroom located and what are your hours?",
+        "a": "Our showroom is located at Carretera Verón-Punta Cana, No. 118, Km 8, La Otra Banda, Higüey, La Altagracia. Our hours are 7:00 AM to 7:00 PM."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "We accept cash, card, bank transfers, and PayPal."
+      },
+      {
+        "q": "How can I request information or a wholesale quote?",
+        "a": "You can message us on WhatsApp at (809) 551-1216, email us at contacto@rijosuplidora.com, or fill out the form on our contact page."
+      }
+    ]
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact | Rijo Suplidora — Showroom in Higüey, Punta Cana",
+      "description": "Contact us for wholesale quotes: WhatsApp, phone, email, or visit our showroom on Carretera Verón-Punta Cana, Higüey, La Altagracia."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your next order",
+      "subtitle": "We're here to help you find the perfect assortment for your business."
+    },
+    "info": {
+      "addressTitle": "Showroom",
+      "hoursTitle": "Business hours",
+      "phoneTitle": "Phone / WhatsApp",
+      "emailTitle": "Email",
+      "socialTitle": "Follow us"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone / WhatsApp",
+      "phonePlaceholder": "(809) 000-0000",
+      "company": "Company or store (optional)",
+      "companyPlaceholder": "Your business name",
+      "message": "Message",
+      "messagePlaceholder": "Tell us what kind of products you're looking for...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message was sent successfully. We'll get back to you shortly.",
+      "error": "There was an error sending your message. Please try again or message us on WhatsApp.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address"
+    },
+    "mapTitle": "Get directions"
+  },
+  "notFound": {
+    "seo": { "title": "Page Not Found | Rijo Suplidora" },
+    "title": "404",
+    "subtitle": "We couldn't find the page you're looking for.",
+    "body": "The link may be broken, or the page may have been moved."
+  },
+  "whatsapp": {
+    "floatingLabel": "Message us on WhatsApp",
+    "defaultMessage": "Hi Rijo Suplidora, I'd like more information about your wholesale catalog."
+  }
+}

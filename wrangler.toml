@@ -1,0 +1,12 @@
+# Configuración para desplegar con Cloudflare Pages (Wrangler CLI).
+# Uso: npx wrangler pages deploy dist --project-name=rijo-suplidora
+#
+# Si prefieres conectar el repositorio directamente desde el dashboard de
+# Cloudflare Pages (recomendado para despliegues automáticos en cada push),
+# este archivo no es necesario: solo configura ahí
+#   Build command:            npm run build
+#   Build output directory:   dist
+
+name = "rijo-suplidora"
+compatibility_date = "2026-09-01"
+pages_build_output_dir = "dist"
