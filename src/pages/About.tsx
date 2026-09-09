@@ -6,7 +6,7 @@ import { SectionHeading } from '../components/ui/SectionHeading'
 import { Reveal, RevealGroup, RevealItem } from '../components/ui/Reveal'
 import { Chip } from '../components/ui/Chip'
 import { Blobs } from '../components/ui/Blobs'
-import { src, IMAGES } from '../data/images'
+import storefrontPhoto from '../assets/photos/fachada-tienda-rijo-suplidora.jpg'
 import { localePath, type Locale } from '../lib/routes'
 import { tArray } from '../lib/i18nHelpers'
 import { breadcrumbSchema } from '../lib/jsonLd'
@@ -61,12 +61,10 @@ export function About({ locale }: { locale: Locale }) {
               <SectionHeading eyebrow={t('about.history.eyebrow')} title={t('about.history.title')} />
               <div className="mt-8 overflow-hidden rounded-3xl shadow-glow">
                 <img
-                  src={src('giftShopInterior', 800)}
-                  srcSet={`${src('giftShopInterior', 600)} 600w, ${src('giftShopInterior', 800)} 800w, ${src('giftShopInterior', 1100)} 1100w`}
-                  sizes="(min-width: 1024px) 38vw, 90vw"
-                  alt={locale === 'es' ? IMAGES.giftShopInterior.altEs : IMAGES.giftShopInterior.altEn}
+                  src={storefrontPhoto}
+                  alt={t('about.history.imageAlt')}
                   loading="lazy"
-                  className="aspect-[4/5] w-full object-cover"
+                  className="aspect-[550/367] w-full object-cover"
                 />
               </div>
             </Reveal>

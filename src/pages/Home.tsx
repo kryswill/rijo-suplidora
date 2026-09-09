@@ -11,7 +11,7 @@ import { ButtonAnchor, ButtonLink } from '../components/ui/Button'
 import { productCategoryIcons, valuePropIcons } from '../data/products'
 import { pillarIcons, sectorIcons } from '../data/sectors'
 import { src, IMAGES } from '../data/images'
-import jewelryDisplayPhoto from '../assets/photos/vitrina-joyeria-larimar-ambar.jpg'
+import storeTeamPhoto from '../assets/photos/equipo-tienda-rijo-suplidora.jpg'
 import { site } from '../data/site'
 import { localePath, type Locale } from '../lib/routes'
 import { localBusinessSchema, organizationSchema } from '../lib/jsonLd'
@@ -93,7 +93,7 @@ export function Home({ locale }: { locale: Locale }) {
           <Reveal direction="right" className="relative">
             <div className="relative overflow-hidden rounded-3xl shadow-glow">
               <img
-                src={jewelryDisplayPhoto}
+                src={storeTeamPhoto}
                 alt={t('home.intro.imageAlt')}
                 loading="lazy"
                 className="aspect-[4/5] w-full object-cover"

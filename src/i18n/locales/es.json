@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Rijo Suplidora",
-    "slogan": "Conectando culturas, transformando recuerdos"
+    "slogan": "“Conectando culturas, transformando recuerdos”"
   },
   "nav": {
     "home": "Inicio",
@@ -40,7 +40,7 @@
     },
     "hero": {
       "eyebrow": "Suplidor mayorista #1 de gift shops en República Dominicana",
-      "title": "Conectando culturas, transformando recuerdos",
+      "title": "“Conectando culturas, transformando recuerdos”",
       "subtitle": "Distribuimos joyería en Larimar y Ámbar, souvenirs, artesanías y regalos turísticos para tiendas de regalo, hoteles y comercios de todo el país.",
       "ctaPrimary": "Ver catálogo de productos",
       "ctaSecondary": "Solicitar información"
@@ -50,7 +50,7 @@
       "title": "Más que un suplidor, un aliado estratégico",
       "body": "Somos una empresa especializada en la comercialización y distribución de regalos turísticos, artesanías, recuerdos, accesorios y productos de identidad cultural, con soluciones integrales al por mayor y al detalle para el sector turístico y comercial. Nacimos para conectar a visitantes nacionales e internacionales con la esencia, historia y riqueza cultural de República Dominicana.",
       "cta": "Conocer nuestra historia",
-      "imageAlt": "Vitrinas con joyería en Larimar y Ámbar exhibidas en la tienda de Rijo Suplidora"
+      "imageAlt": "Miembro del equipo de Rijo Suplidora dando la bienvenida en el showroom, rodeada de joyería y artesanías exhibidas"
     },
     "gemFeature": {
       "eyebrow": "Nuestra esencia",
@@ -136,6 +136,7 @@
     "history": {
       "eyebrow": "Nuestra historia",
       "title": "De una necesidad del mercado a un legado nacional",
+      "imageAlt": "Fachada de la tienda de Rijo Suplidora, pintada de azul turquesa con el logo de la marca",
       "paragraphs": [
         "Rijo Suplidora nace en el año 2017, al identificar una necesidad del conglomerado empresarial del municipio de Higüey, La Altagracia, los cuales incurrían en hacer viajes al exterior debido a la necesidad de mercancías para sus organizaciones turísticas. Con el objetivo de suplir dichas necesidades y fusionar la venta de joyería en piedras semipreciosas, agregando una propuesta de valor más completa de souvenirs simbólicos de nuestro país, surge esta competitiva propuesta al mercado.",
         "Actualmente, Rijo Suplidora es el suplidor de tiendas de regalos mayorista número uno del país, donde ofrecemos joyería, bisutería, souvenirs, ropa, bolsos, sombreros, inflables y más — todo lo necesario para que nuestros clientes ofrezcan un obsequio emblemático y memorable de nuestro país.",
@@ -231,7 +232,8 @@
     "distribution": {
       "eyebrow": "Distribución",
       "title": "Cobertura en todo el territorio dominicano",
-      "body": "Suplimos a tiendas de regalos, hoteles, aeropuertos, puertos de cruceros, museos y comercios en toda la República Dominicana, con inventario permanente y entregas oportunas."
+      "body": "Suplimos a tiendas de regalos, hoteles, aeropuertos, puertos de cruceros, museos y comercios en toda la República Dominicana, con inventario permanente y entregas oportunas.",
+      "imageAlt": "Minibús rotulado con el logo y los colores de Rijo Suplidora, usado para la distribución mayorista"
     },
     "ctaWholesale": {
       "title": "Solicita tu catálogo mayorista",

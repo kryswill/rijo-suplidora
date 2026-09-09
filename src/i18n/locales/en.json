@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Rijo Suplidora",
-    "slogan": "Connecting cultures, transforming memories"
+    "slogan": "“Connecting cultures, transforming memories”"
   },
   "nav": {
     "home": "Home",
@@ -40,7 +40,7 @@
     },
     "hero": {
       "eyebrow": "The #1 wholesale gift shop supplier in the Dominican Republic",
-      "title": "Connecting cultures, transforming memories",
+      "title": "“Connecting cultures, transforming memories”",
       "subtitle": "We distribute Larimar & Amber jewelry, souvenirs, handicrafts, and tourist gifts to gift shops, hotels, and businesses across the country.",
       "ctaPrimary": "View product catalog",
       "ctaSecondary": "Request information"
@@ -50,7 +50,7 @@
       "title": "More than a supplier, a strategic ally",
       "body": "We are a company specialized in the commercialization and distribution of tourist gifts, handicrafts, keepsakes, accessories, and cultural identity products, offering integral wholesale and retail solutions for the tourism and commercial sectors. We were born to connect domestic and international visitors with the essence, history, and cultural richness of the Dominican Republic.",
       "cta": "Discover our story",
-      "imageAlt": "Display cases with Larimar and Amber jewelry at the Rijo Suplidora store"
+      "imageAlt": "Rijo Suplidora team member welcoming visitors in the showroom, surrounded by jewelry and handicrafts on display"
     },
     "gemFeature": {
       "eyebrow": "Our essence",
@@ -136,6 +136,7 @@
     "history": {
       "eyebrow": "Our history",
       "title": "From a market need to a national legacy",
+      "imageAlt": "Rijo Suplidora storefront, painted turquoise blue with the brand's logo",
       "paragraphs": [
         "Rijo Suplidora was born in 2017, after identifying a need among the business community of the municipality of Higüey, La Altagracia, who had to travel abroad to source merchandise for their tourism-related organizations. With the goal of meeting that need and merging the sale of semi-precious stone jewelry with a more complete offering of symbolic souvenirs of our country, this competitive proposal entered the market.",
         "Today, Rijo Suplidora is the country's number-one wholesale supplier to gift shops, offering jewelry, costume jewelry, souvenirs, clothing, bags, hats, inflatables, and more — everything our clients need to offer an emblematic, memorable gift from our country.",
@@ -231,7 +232,8 @@
     "distribution": {
       "eyebrow": "Distribution",
       "title": "Coverage across the entire Dominican territory",
-      "body": "We supply gift shops, hotels, airports, cruise ports, museums, and businesses throughout the Dominican Republic, with permanent inventory and timely deliveries."
+      "body": "We supply gift shops, hotels, airports, cruise ports, museums, and businesses throughout the Dominican Republic, with permanent inventory and timely deliveries.",
+      "imageAlt": "Minibus branded with the Rijo Suplidora logo and colors, used for wholesale distribution"
     },
     "ctaWholesale": {
       "title": "Request your wholesale catalog",

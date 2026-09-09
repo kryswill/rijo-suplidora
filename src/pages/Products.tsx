@@ -9,6 +9,7 @@ import { Blobs } from '../components/ui/Blobs'
 import { ButtonLink } from '../components/ui/Button'
 import { productCategoryIcons } from '../data/products'
 import { src, IMAGES } from '../data/images'
+import distributionVanPhoto from '../assets/photos/minibus-distribucion-rijo-suplidora.png'
 import { localePath, type Locale } from '../lib/routes'
 import { tArray } from '../lib/i18nHelpers'
 import { breadcrumbSchema } from '../lib/jsonLd'
@@ -103,14 +104,12 @@ export function Products({ locale }: { locale: Locale }) {
             <h2 className="font-display mt-3 text-2xl font-semibold text-white sm:text-3xl">{t('products.distribution.title')}</h2>
             <p className="mt-4 text-sm leading-relaxed text-white/70 sm:text-base">{t('products.distribution.body')}</p>
           </Reveal>
-          <Reveal direction="right" className="overflow-hidden rounded-3xl">
+          <Reveal direction="right">
             <img
-              src={src('artisanCrafts', 900)}
-              srcSet={`${src('artisanCrafts', 600)} 600w, ${src('artisanCrafts', 900)} 900w, ${src('artisanCrafts', 1200)} 1200w`}
-              sizes="(min-width: 1024px) 40vw, 90vw"
-              alt={locale === 'es' ? IMAGES.artisanCrafts.altEs : IMAGES.artisanCrafts.altEn}
+              src={distributionVanPhoto}
+              alt={t('products.distribution.imageAlt')}
               loading="lazy"
-              className="aspect-[4/3] w-full object-cover"
+              className="aspect-[65/33] w-full object-contain"
             />
           </Reveal>
         </Container>
