@@ -41,7 +41,7 @@ export function Contact({ locale }: { locale: Locale }) {
       </section>
 
       <section className="py-20 sm:py-28">
-        <Container className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.2fr]">
+        <Container className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-start">
           <Reveal direction="left" className="space-y-8">
             <InfoRow icon={MapPin} title={t('contact.info.addressTitle')}>
               <p>{site.address.full}</p>

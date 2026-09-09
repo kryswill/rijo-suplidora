@@ -122,39 +122,41 @@ export function ContactForm() {
         />
       </Field>
 
-      <Button type="submit" disabled={status === 'sending'} className="w-full sm:w-auto">
-        {status === 'sending' ? (
-          <>
-            <Loader2 size={18} className="animate-spin" /> {t('contact.form.sending')}
-          </>
-        ) : (
-          <>
-            <Send size={18} /> {t('contact.form.submit')}
-          </>
-        )}
-      </Button>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div aria-live="polite" className="order-2 sm:order-1 sm:flex-1">
+          {status === 'success' && (
+            <motion.p
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="flex items-start gap-2 rounded-xl bg-larimar-50 px-4 py-3 text-sm text-larimar-800"
+            >
+              <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-larimar-600" />
+              {t('contact.form.success')}
+            </motion.p>
+          )}
+          {status === 'error' && (
+            <motion.p
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="flex items-start gap-2 rounded-xl bg-amber-50 px-4 py-3 text-sm text-amber-800"
+            >
+              <TriangleAlert size={18} className="mt-0.5 shrink-0 text-amber-600" />
+              {t('contact.form.error')}
+            </motion.p>
+          )}
+        </div>
 
-      <div aria-live="polite">
-        {status === 'success' && (
-          <motion.p
-            initial={{ opacity: 0, y: 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="flex items-start gap-2 rounded-xl bg-larimar-50 px-4 py-3 text-sm text-larimar-800"
-          >
-            <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-larimar-600" />
-            {t('contact.form.success')}
-          </motion.p>
-        )}
-        {status === 'error' && (
-          <motion.p
-            initial={{ opacity: 0, y: 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="flex items-start gap-2 rounded-xl bg-amber-50 px-4 py-3 text-sm text-amber-800"
-          >
-            <TriangleAlert size={18} className="mt-0.5 shrink-0 text-amber-600" />
-            {t('contact.form.error')}
-          </motion.p>
-        )}
+        <Button type="submit" disabled={status === 'sending'} className="order-1 w-full sm:order-2 sm:w-auto sm:shrink-0">
+          {status === 'sending' ? (
+            <>
+              <Loader2 size={18} className="animate-spin" /> {t('contact.form.sending')}
+            </>
+          ) : (
+            <>
+              <Send size={18} /> {t('contact.form.submit')}
+            </>
+          )}
+        </Button>
       </div>
     </form>
   )
