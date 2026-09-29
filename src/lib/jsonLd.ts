@@ -23,7 +23,7 @@ export function organizationSchema(locale: Locale) {
       addressRegion: 'La Altagracia',
       addressCountry: 'DO',
     },
-    sameAs: [site.social.instagram],
+    sameAs: [site.social.instagram, site.social.facebook, site.social.x],
   }
 }
 
@@ -60,7 +60,7 @@ export function localBusinessSchema(locale: Locale) {
       closes: '19:00',
     },
     inLanguage: locale === 'es' ? 'es-DO' : 'en-US',
-    sameAs: [site.social.instagram],
+    sameAs: [site.social.instagram, site.social.facebook, site.social.x],
   }
 }
 

@@ -214,6 +214,9 @@
     "categories": {
       "eyebrow": "Product portfolio",
       "title": "Catalog categories",
+      "imageBadge": "Our full catalog, in one image",
+      "imageCaption": "A real sample of the categories that make up our wholesale portfolio.",
+      "imageAlt": "Composite photograph featuring a selection of Rijo Suplidora's catalog products: Larimar and Amber jewelry, hand-carved wooden handicrafts, cultural souvenirs with the Dominican flag, decorative ceramics, straw hats and clothing, beach inflatables, corporate gift boxes, accessories, textiles, packaged coffee and rum, and personalized items",
       "items": [
         { "title": "Jewelry & Costume Jewelry (Larimar & Amber)", "body": "Handcrafted pieces in the Dominican Republic's most iconic gemstones." },
         { "title": "Souvenirs & Handicrafts", "body": "Symbolic, authentic mementos of our culture." },

@@ -70,32 +70,4 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rijosuplidora.com/contacto" />
     <changefreq>weekly</changefreq>
   </url>
-  <url>
-    <loc>https://www.rijosuplidora.com/privacidad</loc>
-    <xhtml:link rel="alternate" hreflang="es-DO" href="https://www.rijosuplidora.com/privacidad" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.rijosuplidora.com/en/privacy-policy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rijosuplidora.com/privacidad" />
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.rijosuplidora.com/en/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="es-DO" href="https://www.rijosuplidora.com/privacidad" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.rijosuplidora.com/en/privacy-policy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rijosuplidora.com/privacidad" />
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.rijosuplidora.com/terminos</loc>
-    <xhtml:link rel="alternate" hreflang="es-DO" href="https://www.rijosuplidora.com/terminos" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.rijosuplidora.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rijosuplidora.com/terminos" />
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.rijosuplidora.com/en/terms</loc>
-    <xhtml:link rel="alternate" hreflang="es-DO" href="https://www.rijosuplidora.com/terminos" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.rijosuplidora.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rijosuplidora.com/terminos" />
-    <changefreq>weekly</changefreq>
-  </url>
 </urlset>

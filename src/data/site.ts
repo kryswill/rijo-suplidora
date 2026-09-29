@@ -22,6 +22,10 @@ export const site = {
   social: {
     instagram: 'https://www.instagram.com/rijosuplidorard',
     instagramHandle: '@rijosuplidorard',
+    facebook: 'https://www.facebook.com/rijosuplidora',
+    facebookHandle: '@rijosuplidora',
+    x: 'https://x.com/rijosuplidorard',
+    xHandle: '@rijosuplidorard',
   },
   mapsEmbedSrc:
     'https://www.google.com/maps?q=Carretera+Ver%C3%B3n-Punta+Cana+No.118+Km+8+La+Otra+Banda+Hig%C3%BCey+La+Altagracia+Rep%C3%BAblica+Dominicana&output=embed',

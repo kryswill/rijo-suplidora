@@ -214,6 +214,9 @@
     "categories": {
       "eyebrow": "Portafolio de productos",
       "title": "Categorías de nuestro catálogo",
+      "imageBadge": "Nuestro catálogo, en una sola imagen",
+      "imageCaption": "Una muestra real de las categorías que forman nuestro portafolio mayorista.",
+      "imageAlt": "Fotografía compuesta con una selección de los productos del catálogo de Rijo Suplidora: joyería en Larimar y Ámbar, artesanías talladas en madera, souvenirs culturales con la bandera dominicana, cerámica decorativa, sombreros de paja y ropa, inflables de playa, cajas de regalos corporativos, accesorios, textiles, café y ron empacados, y artículos personalizados",
       "items": [
         { "title": "Joyería y Bisutería (Larimar y Ámbar)", "body": "Piezas artesanales en las gemas más representativas de República Dominicana." },
         { "title": "Souvenirs y Artesanías", "body": "Recuerdos simbólicos y auténticos de nuestra cultura." },

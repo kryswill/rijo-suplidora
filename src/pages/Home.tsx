@@ -5,10 +5,11 @@ import { Seo } from '../components/seo/Seo'
 import { Container } from '../components/ui/Container'
 import { SectionHeading } from '../components/ui/SectionHeading'
 import { IconCard } from '../components/ui/IconCard'
+import { CatalogShowcase } from '../components/ui/CatalogShowcase'
 import { Reveal, RevealGroup, RevealItem } from '../components/ui/Reveal'
 import { Blobs } from '../components/ui/Blobs'
 import { ButtonAnchor, ButtonLink } from '../components/ui/Button'
-import { productCategoryIcons, valuePropIcons } from '../data/products'
+import { valuePropIcons } from '../data/products'
 import { pillarIcons, sectorIcons } from '../data/sectors'
 import { src, IMAGES } from '../data/images'
 import storeTeamPhoto from '../assets/photos/equipo-tienda-rijo-suplidora.jpg'
@@ -174,21 +175,7 @@ export function Home({ locale }: { locale: Locale }) {
               </ButtonLink>
             </Reveal>
           </div>
-          <RevealGroup className="mt-14 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6" stagger={0.05}>
-            {tArray<Item>(t, 'products.categories.items').map((item, i) => {
-              const Icon = productCategoryIcons[i]
-              return (
-                <RevealItem key={item.title}>
-                  <div className="group flex h-full flex-col items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-5 text-center backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-amber-300/40 hover:bg-white/10">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-amber-300 transition-colors group-hover:bg-amber-400/20">
-                      <Icon size={20} strokeWidth={1.8} />
-                    </div>
-                    <span className="text-xs font-medium leading-snug text-white/85 sm:text-sm">{item.title}</span>
-                  </div>
-                </RevealItem>
-              )
-            })}
-          </RevealGroup>
+          <CatalogShowcase dark />
         </Container>
       </section>
 

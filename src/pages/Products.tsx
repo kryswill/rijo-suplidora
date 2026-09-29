@@ -3,22 +3,17 @@ import { ArrowRight, Truck } from 'lucide-react'
 import { Seo } from '../components/seo/Seo'
 import { Container } from '../components/ui/Container'
 import { SectionHeading } from '../components/ui/SectionHeading'
-import { IconCard } from '../components/ui/IconCard'
-import { Reveal, RevealGroup } from '../components/ui/Reveal'
+import { CatalogShowcase } from '../components/ui/CatalogShowcase'
+import { Reveal } from '../components/ui/Reveal'
 import { Blobs } from '../components/ui/Blobs'
 import { ButtonLink } from '../components/ui/Button'
-import { productCategoryIcons } from '../data/products'
 import { src, IMAGES } from '../data/images'
 import distributionVanPhoto from '../assets/photos/minibus-distribucion-rijo-suplidora.png'
 import { localePath, type Locale } from '../lib/routes'
-import { tArray } from '../lib/i18nHelpers'
 import { breadcrumbSchema } from '../lib/jsonLd'
-
-type Item = { title: string; body: string }
 
 export function Products({ locale }: { locale: Locale }) {
   const { t } = useTranslation()
-  const categories = tArray<Item>(t, 'products.categories.items')
 
   return (
     <>
@@ -75,20 +70,11 @@ export function Products({ locale }: { locale: Locale }) {
       </section>
 
       {/* CATEGORIES */}
-      <section className="py-24 sm:py-32">
+      <section className="relative overflow-hidden py-24 sm:py-32">
+        <Blobs variant="subtle" />
         <Container>
           <SectionHeading center eyebrow={t('products.categories.eyebrow')} title={t('products.categories.title')} className="mx-auto" />
-          <RevealGroup className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3" stagger={0.05}>
-            {categories.map((item, i) => (
-              <IconCard
-                key={item.title}
-                icon={productCategoryIcons[i]}
-                title={item.title}
-                body={item.body}
-                accent={i % 2 === 0 ? 'larimar' : 'amber'}
-              />
-            ))}
-          </RevealGroup>
+          <CatalogShowcase />
         </Container>
       </section>
 

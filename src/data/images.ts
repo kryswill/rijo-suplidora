@@ -62,6 +62,54 @@ export const IMAGES = {
     altEs: 'Cerámica y artesanías exhibidas en la entrada de una tienda',
     altEn: 'Pottery and crafts displayed at a shop entrance',
   },
+  culturalSouvenirs: {
+    id: 'photo-1780777424838-3ec34be67737',
+    credit: 'Kiran Naidu / Unsplash',
+    altEs: 'Bandera de República Dominicana ondeando, símbolo de productos culturales',
+    altEn: 'Dominican Republic flag waving, symbol of cultural products',
+  },
+  strawHatsDisplay: {
+    id: 'photo-1758900561440-4014bdd78c10',
+    credit: 'Mauro Fossati / Unsplash',
+    altEs: 'Colección de sombreros de paja exhibidos en una pared de madera',
+    altEn: 'Collection of straw hats displayed on a wooden wall',
+  },
+  poolInflatables: {
+    id: 'photo-1779766342185-677b42fd175d',
+    credit: 'Brunxs / Unsplash',
+    altEs: 'Inflables de piscina flotando en agua azul',
+    altEn: 'Pool inflatables floating in blue water',
+  },
+  corporateGiftBoxes: {
+    id: 'photo-1576072446584-4955dfe17b86',
+    credit: 'Shamblen Studios / Unsplash',
+    altEs: 'Cajas de regalo de colores surtidos, ideales para regalos corporativos',
+    altEn: 'Assorted-color gift boxes, ideal for corporate gifting',
+  },
+  accessoriesFlatlay: {
+    id: 'photo-1477064996809-dae46985eee7',
+    credit: 'Clarisse Meyer / Unsplash',
+    altEs: 'Composición de accesorios de moda: lentes de sol, sombrero y bolso de mano',
+    altEn: 'Fashion accessories flatlay: sunglasses, hat, and handbag',
+  },
+  foldedTextiles: {
+    id: 'photo-1756364694576-fa9f137e6975',
+    credit: 'engin akyurt / Unsplash',
+    altEs: 'Toallas enrolladas con patrones coloridos apiladas',
+    altEn: 'Rolled towels with colorful patterns stacked together',
+  },
+  packagedGourmetShelf: {
+    id: 'photo-1769988057652-c7b274646557',
+    credit: 'Haberdoedas / Unsplash',
+    altEs: 'Estantería con bolsas y frascos de productos gastronómicos empacados',
+    altEn: 'Shelf stocked with bags and jars of packaged gourmet products',
+  },
+  personalizedKeychains: {
+    id: 'photo-1699297842445-22bcbf7e27cb',
+    credit: 'aboodi vesakaran / Unsplash',
+    altEs: 'Variedad de llaveros personalizados colgados en una pared',
+    altEn: 'Assortment of personalized keychains hanging on a wall',
+  },
 } as const
 
 export type ImageKey = keyof typeof IMAGES

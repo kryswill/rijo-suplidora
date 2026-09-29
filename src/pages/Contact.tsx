@@ -1,12 +1,14 @@
 import type { ComponentType, ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
-import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, MessageCircle, Share2 } from 'lucide-react'
 import { Seo } from '../components/seo/Seo'
 import { Container } from '../components/ui/Container'
 import { Reveal } from '../components/ui/Reveal'
 import { Blobs } from '../components/ui/Blobs'
 import { ContactForm } from '../components/ui/ContactForm'
 import { IconInstagram } from '../components/ui/IconInstagram'
+import { IconFacebook } from '../components/ui/IconFacebook'
+import { IconX } from '../components/ui/IconX'
 import { site, whatsappLink } from '../data/site'
 import { localePath, type Locale } from '../lib/routes'
 import { breadcrumbSchema } from '../lib/jsonLd'
@@ -59,10 +61,33 @@ export function Contact({ locale }: { locale: Locale }) {
                 {site.email.public}
               </a>
             </InfoRow>
-            <InfoRow icon={IconInstagram} title={t('contact.info.socialTitle')}>
-              <a href={site.social.instagram} target="_blank" rel="noreferrer" className="hover:text-amber-600">
-                {site.social.instagramHandle}
-              </a>
+            <InfoRow icon={Share2} title={t('contact.info.socialTitle')}>
+              <div className="flex flex-wrap gap-x-5 gap-y-2">
+                <a
+                  href={site.social.instagram}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1.5 hover:text-amber-600"
+                >
+                  <IconInstagram size={16} /> {site.social.instagramHandle}
+                </a>
+                <a
+                  href={site.social.facebook}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1.5 hover:text-amber-600"
+                >
+                  <IconFacebook size={16} /> {site.social.facebookHandle}
+                </a>
+                <a
+                  href={site.social.x}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1.5 hover:text-amber-600"
+                >
+                  <IconX size={16} /> {site.social.xHandle}
+                </a>
+              </div>
             </InfoRow>
 
             <a

@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next'
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 import { Logo } from './Logo'
 import { IconInstagram } from '../ui/IconInstagram'
+import { IconFacebook } from '../ui/IconFacebook'
+import { IconX } from '../ui/IconX'
 import { Container } from '../ui/Container'
 import { site } from '../../data/site'
 import { localePath, type Locale, type PageKey } from '../../lib/routes'
@@ -71,6 +73,18 @@ export function Footer({ locale }: { locale: Locale }) {
               <IconInstagram size={18} className="mt-0.5 shrink-0 text-larimar-300" />
               <a href={site.social.instagram} target="_blank" rel="noreferrer" className="hover:text-white">
                 {site.social.instagramHandle}
+              </a>
+            </li>
+            <li className="flex gap-3">
+              <IconFacebook size={18} className="mt-0.5 shrink-0 text-larimar-300" />
+              <a href={site.social.facebook} target="_blank" rel="noreferrer" className="hover:text-white">
+                {site.social.facebookHandle}
+              </a>
+            </li>
+            <li className="flex gap-3">
+              <IconX size={18} className="mt-0.5 shrink-0 text-larimar-300" />
+              <a href={site.social.x} target="_blank" rel="noreferrer" className="hover:text-white">
+                {site.social.xHandle}
               </a>
             </li>
           </ul>
