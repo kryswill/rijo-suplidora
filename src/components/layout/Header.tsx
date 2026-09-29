@@ -109,7 +109,7 @@ export function Header({ locale }: { locale: Locale }) {
                   {t(item.labelKey)}
                 </NavLink>
               ))}
-              <div className="mt-3">
+              <div className="mt-3 self-start">
                 <LanguageSwitcher locale={locale} />
               </div>
             </div>
