@@ -209,7 +209,9 @@
     "gemFeature": {
       "eyebrow": "Nuestra especialidad",
       "title": "Joyería en Larimar y Ámbar.",
-      "body": "Fusionamos la venta de joyería en piedras semipreciosas con souvenirs simbólicos de nuestro país: Larimar, la gema azul turquesa exclusiva de República Dominicana, y Ámbar, la resina fosilizada de tonos cálidos que forma parte de nuestra identidad."
+      "body": "Fusionamos la venta de joyería en piedras semipreciosas con souvenirs simbólicos de nuestro país: Larimar, la gema azul turquesa exclusiva de República Dominicana, y Ámbar, la resina fosilizada de tonos cálidos que forma parte de nuestra identidad.",
+      "larimarAlt": "Collares de plata con piedras de Larimar exhibidos en la tienda Rijo Suplidora",
+      "amberAlt": "Piedras de Ámbar pulidas en tonos naranja y miel"
     },
     "categories": {
       "eyebrow": "Portafolio de productos",
@@ -231,6 +233,11 @@
         { "title": "Artículos Personalizados", "body": "Detalles con un toque único y memorable." },
         { "title": "Productos de Temporada y Líneas Exclusivas", "body": "Novedades desarrolladas para destacar en el mercado." }
       ]
+    },
+    "gallery": {
+      "eyebrow": "Galería",
+      "title": "Así lucen nuestros productos.",
+      "subtitle": "Una muestra real de nuestros sets de regalo y piezas de joyería, tal como se exhiben en tienda."
     },
     "distribution": {
       "eyebrow": "Distribución",

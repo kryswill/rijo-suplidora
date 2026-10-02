@@ -209,7 +209,9 @@
     "gemFeature": {
       "eyebrow": "Our specialty",
       "title": "Larimar & Amber Jewelry.",
-      "body": "We combine semi-precious stone jewelry with symbolic souvenirs from our country: Larimar, the turquoise-blue gemstone exclusive to the Dominican Republic, and Amber, the warm-toned fossilized resin that is part of our identity."
+      "body": "We combine semi-precious stone jewelry with symbolic souvenirs from our country: Larimar, the turquoise-blue gemstone exclusive to the Dominican Republic, and Amber, the warm-toned fossilized resin that is part of our identity.",
+      "larimarAlt": "Silver necklaces with Larimar stones displayed at the Rijo Suplidora store",
+      "amberAlt": "Polished Amber stones in orange and honey tones"
     },
     "categories": {
       "eyebrow": "Product portfolio",
@@ -231,6 +233,11 @@
         { "title": "Personalized Items", "body": "Gifts with a unique, memorable touch." },
         { "title": "Seasonal & Exclusive Lines", "body": "New products developed to stand out in the market." }
       ]
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "This is what our products look like.",
+      "subtitle": "A real look at our gift sets and jewelry pieces, just as they're displayed in store."
     },
     "distribution": {
       "eyebrow": "Distribution",
