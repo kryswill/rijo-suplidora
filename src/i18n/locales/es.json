@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Rijo Suplidora",
-    "slogan": "“Conectando culturas, transformando recuerdos”"
+    "slogan": "“Conectando culturas, transformando recuerdos.”"
   },
   "nav": {
     "home": "Inicio",
@@ -40,21 +40,21 @@
     },
     "hero": {
       "eyebrow": "Suplidor mayorista #1 de gift shops en República Dominicana",
-      "title": "“Conectando culturas, transformando recuerdos”",
+      "title": "“Conectando culturas, transformando recuerdos.”",
       "subtitle": "Distribuimos joyería en Larimar y Ámbar, souvenirs, artesanías y regalos turísticos para tiendas de regalo, hoteles y comercios de todo el país.",
       "ctaPrimary": "Ver catálogo de productos",
       "ctaSecondary": "Solicitar información"
     },
     "intro": {
       "eyebrow": "Quiénes somos",
-      "title": "Más que un suplidor, un aliado estratégico",
+      "title": "Más que un suplidor, un aliado estratégico.",
       "body": "Somos una empresa especializada en la comercialización y distribución de regalos turísticos, artesanías, recuerdos, accesorios y productos de identidad cultural, con soluciones integrales al por mayor y al detalle para el sector turístico y comercial. Nacimos para conectar a visitantes nacionales e internacionales con la esencia, historia y riqueza cultural de República Dominicana.",
       "cta": "Conocer nuestra historia",
       "imageAlt": "Miembro del equipo de Rijo Suplidora dando la bienvenida en el showroom, rodeada de joyería y artesanías exhibidas"
     },
     "gemFeature": {
       "eyebrow": "Nuestra esencia",
-      "title": "Larimar y Ámbar: las piedras que representan a nuestro país",
+      "title": "Larimar y Ámbar: las piedras que representan a nuestro país.",
       "body": "Fusionamos la venta de joyería en piedras semipreciosas con una propuesta de souvenirs simbólicos de República Dominicana, para que cada obsequio sea memorable y auténtico.",
       "larimarTitle": "Larimar",
       "larimarBody": "La gema azul turquesa exclusiva de República Dominicana.",
@@ -63,7 +63,7 @@
     },
     "valueProps": {
       "eyebrow": "Propuesta de valor",
-      "title": "Una solución integral para tu tienda de regalos",
+      "title": "Una solución integral para tu tienda de regalos.",
       "items": [
         { "title": "Amplio catálogo de productos", "body": "Un portafolio competitivo que evoluciona constantemente." },
         { "title": "Innovación constante", "body": "Incorporamos permanentemente nuevas tendencias, materiales y diseños." },
@@ -79,13 +79,13 @@
     },
     "portfolioPreview": {
       "eyebrow": "Portafolio",
-      "title": "Todo lo que tu tienda de regalos necesita",
+      "title": "Todo lo que tu tienda de regalos necesita.",
       "subtitle": "Joyería, souvenirs, artesanías, ropa, bolsos, sombreros, inflables y mucho más — todo en un solo suplidor.",
       "cta": "Explorar catálogo completo"
     },
     "sectors": {
       "eyebrow": "A quién servimos",
-      "title": "Aliado estratégico de todo el sector turístico y comercial",
+      "title": "Aliado estratégico de todo el sector turístico y comercial.",
       "list": [
         "Tiendas de regalos turísticos",
         "Hoteles y resorts",
@@ -103,7 +103,7 @@
     },
     "pillars": {
       "eyebrow": "Por qué elegirnos",
-      "title": "Pilares estratégicos",
+      "title": "Pilares estratégicos.",
       "items": [
         { "title": "Excelencia Operacional", "body": "Optimizamos continuamente nuestros procesos para garantizar rapidez, eficiencia y cumplimiento." },
         { "title": "Innovación Comercial", "body": "Incorporamos permanentemente nuevas tendencias, materiales y diseños." },
@@ -119,7 +119,7 @@
     },
     "location": {
       "eyebrow": "Showroom",
-      "title": "Visítanos en Higüey, Punta Cana",
+      "title": "Visítanos en Higüey, Punta Cana.",
       "cta": "Cómo llegar"
     }
   },
@@ -130,12 +130,12 @@
     },
     "hero": {
       "eyebrow": "Sobre nosotros",
-      "title": "Una empresa dominicana que transforma productos en recuerdos",
+      "title": "Una empresa dominicana que transforma productos en recuerdos.",
       "subtitle": "Descubre nuestra historia, propósito y los valores que nos guían."
     },
     "history": {
       "eyebrow": "Nuestra historia",
-      "title": "De una necesidad del mercado a un legado nacional",
+      "title": "De una necesidad del mercado a un legado nacional.",
       "imageAlt": "Fachada de la tienda de Rijo Suplidora, pintada de azul turquesa con el logo de la marca",
       "paragraphs": [
         "Rijo Suplidora nace en el año 2017, al identificar una necesidad del conglomerado empresarial del municipio de Higüey, La Altagracia, los cuales incurrían en hacer viajes al exterior debido a la necesidad de mercancías para sus organizaciones turísticas. Con el objetivo de suplir dichas necesidades y fusionar la venta de joyería en piedras semipreciosas, agregando una propuesta de valor más completa de souvenirs simbólicos de nuestro país, surge esta competitiva propuesta al mercado.",
@@ -161,7 +161,7 @@
     },
     "values": {
       "eyebrow": "Lo que nos define",
-      "title": "Valores corporativos",
+      "title": "Valores corporativos.",
       "items": [
         { "title": "Integridad", "body": "Actuamos con transparencia, honestidad y ética en cada decisión." },
         { "title": "Excelencia", "body": "Buscamos superar las expectativas mediante la mejora continua." },
@@ -184,15 +184,15 @@
       "items": ["Elegante", "Cercana", "Confiable", "Innovadora", "Dinámica", "Internacional", "Cultural", "Sofisticada", "Responsable", "Inspiradora"]
     },
     "quality": {
-      "title": "Compromiso con la calidad",
+      "title": "Compromiso con la calidad.",
       "body": "Nos comprometemos a ofrecer productos que cumplan los más altos estándares de calidad, diseño, presentación y funcionalidad, respaldados por procesos eficientes y una atención personalizada que genere confianza y relaciones comerciales duraderas."
     },
     "social": {
-      "title": "Responsabilidad social",
+      "title": "Responsabilidad social.",
       "body": "Contribuimos al fortalecimiento de la economía local apoyando artesanos, emprendedores y fabricantes, promoviendo prácticas sostenibles, comercio responsable y el respeto por el patrimonio cultural."
     },
     "message": {
-      "title": "Mensaje institucional",
+      "title": "Mensaje institucional.",
       "body": "Creemos que cada destino merece ser recordado mediante productos que inspiren emociones, preserven la cultura y fortalezcan la experiencia del visitante. No distribuimos únicamente productos; acercamos historias, identidad y recuerdos que trascienden el tiempo."
     }
   },
@@ -203,17 +203,17 @@
     },
     "hero": {
       "eyebrow": "Catálogo mayorista",
-      "title": "Un portafolio completo para tu tienda de regalos",
+      "title": "Un portafolio completo para tu tienda de regalos.",
       "subtitle": "Amplio catálogo de productos, inventario permanente y entregas oportunas en todo el territorio de República Dominicana."
     },
     "gemFeature": {
       "eyebrow": "Nuestra especialidad",
-      "title": "Joyería en Larimar y Ámbar",
+      "title": "Joyería en Larimar y Ámbar.",
       "body": "Fusionamos la venta de joyería en piedras semipreciosas con souvenirs simbólicos de nuestro país: Larimar, la gema azul turquesa exclusiva de República Dominicana, y Ámbar, la resina fosilizada de tonos cálidos que forma parte de nuestra identidad."
     },
     "categories": {
       "eyebrow": "Portafolio de productos",
-      "title": "Categorías de nuestro catálogo",
+      "title": "Categorías de nuestro catálogo.",
       "imageBadge": "Nuestro catálogo, en una sola imagen",
       "imageCaption": "Una muestra real de las categorías que forman nuestro portafolio mayorista.",
       "imageAlt": "Fotografía compuesta con una selección de los productos del catálogo de Rijo Suplidora: joyería en Larimar y Ámbar, artesanías talladas en madera, souvenirs culturales con la bandera dominicana, cerámica decorativa, sombreros de paja y ropa, inflables de playa, cajas de regalos corporativos, accesorios, textiles, café y ron empacados, y artículos personalizados",
@@ -234,12 +234,12 @@
     },
     "distribution": {
       "eyebrow": "Distribución",
-      "title": "Cobertura en todo el territorio dominicano",
+      "title": "Cobertura en todo el territorio dominicano.",
       "body": "Suplimos a tiendas de regalos, hoteles, aeropuertos, puertos de cruceros, museos y comercios en toda la República Dominicana, con inventario permanente y entregas oportunas.",
       "imageAlt": "Minibús rotulado con el logo y los colores de Rijo Suplidora, usado para la distribución mayorista"
     },
     "ctaWholesale": {
-      "title": "Solicita tu catálogo mayorista",
+      "title": "Solicita tu catálogo mayorista.",
       "body": "Cuéntanos sobre tu negocio y te asesoramos para elegir el mejor surtido de productos.",
       "cta": "Solicitar cotización"
     }
@@ -251,7 +251,7 @@
     },
     "hero": {
       "eyebrow": "Ayuda",
-      "title": "Preguntas frecuentes",
+      "title": "Preguntas frecuentes.",
       "subtitle": "¿Tienes otra pregunta? Escríbenos y con gusto te ayudamos."
     },
     "items": [
@@ -292,7 +292,7 @@
     },
     "hero": {
       "eyebrow": "Contacto",
-      "title": "Hablemos de tu próximo pedido",
+      "title": "Hablemos de tu próximo pedido.",
       "subtitle": "Estamos para ayudarte a encontrar el surtido perfecto para tu negocio."
     },
     "info": {
@@ -303,7 +303,7 @@
       "socialTitle": "Síguenos"
     },
     "form": {
-      "title": "Envíanos un mensaje",
+      "title": "Envíanos un mensaje.",
       "name": "Nombre completo",
       "namePlaceholder": "Tu nombre",
       "email": "Correo electrónico",
