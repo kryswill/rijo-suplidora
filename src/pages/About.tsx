@@ -72,11 +72,11 @@ export function About({ locale }: { locale: Locale }) {
           <div className="space-y-6">
             {paragraphs.map((p, i) => (
               <Reveal key={i} delay={i * 0.05}>
-                <p className="text-base leading-relaxed text-larimar-800/90 sm:text-lg">{p}</p>
+                <p className="text-center text-base leading-relaxed text-larimar-800/90 sm:text-lg">{p}</p>
               </Reveal>
             ))}
             <Reveal>
-              <blockquote className="border-l-4 border-amber-400 bg-amber-50 px-6 py-5 font-display text-lg italic text-larimar-900">
+              <blockquote className="border-t-4 border-amber-400 bg-amber-50 px-6 py-5 text-center font-display text-lg italic text-larimar-900">
                 {t('about.history.closing')}
               </blockquote>
             </Reveal>
@@ -92,7 +92,7 @@ export function About({ locale }: { locale: Locale }) {
           <RevealGroup className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4" stagger={0.08}>
             {identityCards.map((card) => (
               <RevealItem key={card.title}>
-                <div className="h-full rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm">
+                <div className="h-full rounded-2xl border border-white/10 bg-white/5 p-7 text-center backdrop-blur-sm">
                   <card.icon size={22} className="text-amber-300" strokeWidth={1.8} />
                   <h3 className="font-display mt-4 text-lg font-semibold text-white">{card.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-white/65">{card.body}</p>
@@ -100,9 +100,9 @@ export function About({ locale }: { locale: Locale }) {
               </RevealItem>
             ))}
           </RevealGroup>
-          <RevealGroup className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2" stagger={0.08}>
+          <RevealGroup className="mx-auto mt-6 grid max-w-3xl grid-cols-1 gap-5" stagger={0.08}>
             <RevealItem>
-              <div className="h-full rounded-2xl bg-gradient-to-br from-larimar-600 to-larimar-800 p-7">
+              <div className="h-full rounded-2xl bg-gradient-to-br from-larimar-600 to-larimar-800 p-7 text-center">
                 <h3 className="font-display text-lg font-semibold text-white">{t('about.identity.essenceTitle')}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-white/85">{t('about.identity.essenceBody')}</p>
               </div>
@@ -118,7 +118,7 @@ export function About({ locale }: { locale: Locale }) {
           <RevealGroup className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4" stagger={0.06}>
             {values.map((value) => (
               <RevealItem key={value.title}>
-                <div className="h-full rounded-2xl border border-larimar-100 bg-white p-6 transition-shadow hover:shadow-lg">
+                <div className="h-full rounded-2xl border border-larimar-100 bg-white p-6 text-center transition-shadow hover:shadow-lg">
                   <h3 className="font-display text-base font-semibold text-larimar-950">{value.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-larimar-700/75">{value.body}</p>
                 </div>
@@ -158,11 +158,11 @@ export function About({ locale }: { locale: Locale }) {
       {/* QUALITY + SOCIAL */}
       <section className="pb-24 sm:pb-32">
         <Container className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          <Reveal direction="left" className="rounded-3xl bg-larimar-50 p-8">
+          <Reveal direction="left" className="rounded-3xl bg-larimar-50 p-8 text-center">
             <h3 className="font-display text-xl font-semibold text-larimar-950">{t('about.quality.title')}</h3>
             <p className="mt-3 text-sm leading-relaxed text-larimar-700/85 sm:text-base">{t('about.quality.body')}</p>
           </Reveal>
-          <Reveal direction="right" className="rounded-3xl bg-amber-50 p-8">
+          <Reveal direction="right" className="rounded-3xl bg-amber-50 p-8 text-center">
             <h3 className="font-display text-xl font-semibold text-larimar-950">{t('about.social.title')}</h3>
             <p className="mt-3 text-sm leading-relaxed text-larimar-700/85 sm:text-base">{t('about.social.body')}</p>
           </Reveal>

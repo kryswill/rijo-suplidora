@@ -18,13 +18,13 @@ export function IconCard({
   return (
     <RevealItem
       className={clsx(
-        'group relative overflow-hidden rounded-2xl border border-larimar-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl',
+        'group relative overflow-hidden rounded-2xl border border-larimar-100 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl',
         className,
       )}
     >
       <div
         className={clsx(
-          'mb-4 flex h-12 w-12 items-center justify-center rounded-xl transition-transform duration-300 group-hover:scale-110',
+          'mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl transition-transform duration-300 group-hover:scale-110',
           accent === 'larimar' ? 'bg-larimar-50 text-larimar-700' : 'bg-amber-50 text-amber-600',
         )}
       >

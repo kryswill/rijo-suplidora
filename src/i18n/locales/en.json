@@ -59,7 +59,9 @@
       "larimarTitle": "Larimar",
       "larimarBody": "The turquoise-blue gemstone exclusive to the Dominican Republic.",
       "amberTitle": "Amber",
-      "amberBody": "Fossilized resin in warm tones, a symbol of our identity."
+      "amberBody": "Fossilized resin in warm tones, a symbol of our identity.",
+      "larimarAlt": "Polished slabs of turquoise-blue Larimar stone with white veining",
+      "amberAlt": "Polished Amber stones in honey, orange and brown tones"
     },
     "valueProps": {
       "eyebrow": "Value proposition",

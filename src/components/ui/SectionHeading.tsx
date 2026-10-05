@@ -18,7 +18,7 @@ export function SectionHeading({
   className?: string
 }) {
   return (
-    <Reveal className={clsx('max-w-2xl', center && 'mx-auto text-center', className)}>
+    <Reveal className={clsx('max-w-2xl', center ? 'mx-auto text-center' : 'text-left', className)}>
       {eyebrow && (
         <span
           className={clsx(

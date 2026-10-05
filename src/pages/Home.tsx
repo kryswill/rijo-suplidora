@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'motion/react'
-import { ArrowRight, MapPin } from 'lucide-react'
+import { ArrowRight, Gem, MapPin } from 'lucide-react'
 import { Seo } from '../components/seo/Seo'
 import { Container } from '../components/ui/Container'
 import { SectionHeading } from '../components/ui/SectionHeading'
@@ -13,6 +13,8 @@ import { valuePropIcons } from '../data/products'
 import { pillarIcons, sectorIcons } from '../data/sectors'
 import { src, IMAGES } from '../data/images'
 import storeTeamPhoto from '../assets/photos/equipo-tienda-rijo-suplidora.jpg'
+import larimarHomePhoto from '../assets/photos/piedra-larimar-inicio-rijo-suplidora.webp'
+import amberHomePhoto from '../assets/photos/piedra-ambar-inicio-rijo-suplidora.webp'
 import { site } from '../data/site'
 import { localePath, type Locale } from '../lib/routes'
 import { localBusinessSchema, organizationSchema } from '../lib/jsonLd'
@@ -123,18 +125,18 @@ export function Home({ locale }: { locale: Locale }) {
           />
           <RevealGroup className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2" stagger={0.15}>
             <GemCard
-              imageKey="larimarStone"
-              locale={locale}
+              image={larimarHomePhoto}
+              alt={t('home.gemFeature.larimarAlt')}
               title={t('home.gemFeature.larimarTitle')}
               body={t('home.gemFeature.larimarBody')}
-              accent="from-larimar-400/90 to-larimar-900/90"
+              tone="larimar"
             />
             <GemCard
-              imageKey="amberStone"
-              locale={locale}
+              image={amberHomePhoto}
+              alt={t('home.gemFeature.amberAlt')}
               title={t('home.gemFeature.amberTitle')}
               body={t('home.gemFeature.amberBody')}
-              accent="from-amber-400/90 to-amber-900/90"
+              tone="amber"
             />
           </RevealGroup>
         </Container>
@@ -188,7 +190,7 @@ export function Home({ locale }: { locale: Locale }) {
               const Icon = sectorIcons[i]
               return (
                 <RevealItem key={label}>
-                  <div className="flex items-center gap-3 rounded-xl bg-larimar-50/60 px-4 py-3.5 transition-colors hover:bg-amber-50">
+                  <div className="flex items-center justify-center gap-3 rounded-xl bg-larimar-50/60 px-4 py-3.5 text-center transition-colors hover:bg-amber-50">
                     <Icon size={18} className="shrink-0 text-larimar-600" />
                     <span className="text-sm font-medium text-larimar-900">{label}</span>
                   </div>
@@ -209,8 +211,8 @@ export function Home({ locale }: { locale: Locale }) {
               const Icon = pillarIcons[i]
               return (
                 <RevealItem key={item.title}>
-                  <div className="h-full rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-colors hover:bg-white/10">
-                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400/15 text-amber-300">
+                  <div className="h-full rounded-2xl border border-white/10 bg-white/5 p-6 text-center backdrop-blur-sm transition-colors hover:bg-white/10">
+                    <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400/15 text-amber-300">
                       <Icon size={20} strokeWidth={1.8} />
                     </div>
                     <h3 className="font-display text-base font-semibold text-white">{item.title}</h3>
@@ -275,34 +277,77 @@ export function Home({ locale }: { locale: Locale }) {
   )
 }
 
+const GEM_TONES = {
+  larimar: {
+    stage: 'bg-radial-[ellipse_at_50%_32%] from-larimar-700 to-larimar-900 to-80%',
+    halo: 'bg-larimar-400/40',
+    title: 'from-larimar-200 via-white to-larimar-200',
+    tilt: '-rotate-3',
+  },
+  amber: {
+    stage: 'bg-radial-[ellipse_at_50%_32%] from-amber-800 to-larimar-900 to-80%',
+    halo: 'bg-amber-500/40',
+    title: 'from-amber-200 via-white to-amber-300',
+    tilt: 'rotate-2',
+  },
+} as const
+
+/**
+ * Tarjeta de gema ("vitrina"). La foto es un recorte con fondo transparente (WebP con alfa), así
+ * que el color real de la piedra se ve completo y no lleva ninguna capa de color encima. El
+ * diseño apila varias capas para dar profundidad sin tocar la foto:
+ *  1. borde de degradado ámbar de 2 px (envoltorio con `p-[2px]`): más vivo que un trazo plano;
+ *  2. foco de luz radial del color de la gema + halo difuso detrás de la piedra;
+ *  3. dos anillos concéntricos finos (como el reflejo de una vitrina);
+ *  4. la piedra flota suavemente (`animate-float`, definida en el tema; se desactiva sola con
+ *     `prefers-reduced-motion`), inclinada y con sombra proyectada, y al pasar el cursor se
+ *     endereza y se acerca;
+ *  5. separador con ícono de gema y título con degradado claro, sobre el panel de texto.
+ */
 function GemCard({
-  imageKey,
-  locale,
+  image,
+  alt,
   title,
   body,
-  accent,
+  tone,
 }: {
-  imageKey: 'larimarStone' | 'amberStone'
-  locale: Locale
+  image: string
+  alt: string
   title: string
   body: string
-  accent: string
+  tone: keyof typeof GEM_TONES
 }) {
-  const alt = locale === 'es' ? IMAGES[imageKey].altEs : IMAGES[imageKey].altEn
+  const style = GEM_TONES[tone]
   return (
-    <div className="group relative overflow-hidden rounded-3xl">
-      <img
-        src={src(imageKey, 900)}
-        srcSet={`${src(imageKey, 600)} 600w, ${src(imageKey, 900)} 900w, ${src(imageKey, 1200)} 1200w`}
-        sizes="(min-width: 640px) 45vw, 90vw"
-        alt={alt}
-        loading="lazy"
-        className="aspect-square w-full object-cover transition-transform duration-700 group-hover:scale-110"
-      />
-      <div className={`absolute inset-0 bg-gradient-to-t ${accent} opacity-90`} />
-      <div className="absolute inset-x-0 bottom-0 p-7">
-        <h3 className="font-display text-2xl font-semibold text-white">{title}</h3>
-        <p className="mt-2 text-sm text-white/85">{body}</p>
+    <div className="group rounded-3xl bg-gradient-to-br from-amber-400 via-amber-400/20 to-amber-400/80 p-[2px] transition-all duration-500 hover:-translate-y-1 hover:shadow-glow-amber">
+      <div className="relative isolate overflow-hidden rounded-[calc(1.5rem-2px)] bg-larimar-900">
+        <div className={`relative aspect-[3/2] overflow-hidden ${style.stage}`}>
+          <div aria-hidden className="bg-grain absolute inset-0" />
+          <div aria-hidden className="absolute left-1/2 top-1/2 h-[70%] aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10" />
+          <div aria-hidden className="absolute left-1/2 top-1/2 h-[105%] aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/5" />
+          <div
+            aria-hidden
+            className={`absolute left-1/2 top-1/2 h-1/2 w-3/5 -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl transition-opacity duration-500 group-hover:opacity-100 opacity-70 ${style.halo}`}
+          />
+          <div className={`absolute inset-0 p-5 transition-all duration-700 group-hover:rotate-0 group-hover:scale-105 ${style.tilt}`}>
+            <img
+              src={image}
+              alt={alt}
+              loading="lazy"
+              className="animate-float h-full w-full object-contain drop-shadow-2xl"
+            />
+          </div>
+          <div aria-hidden className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-larimar-900 to-transparent" />
+        </div>
+        <div className="relative px-7 pb-8 pt-3 text-center">
+          <div aria-hidden className="mb-4 flex items-center justify-center gap-3">
+            <span className="h-px w-14 bg-gradient-to-r from-transparent to-amber-400/70" />
+            <Gem size={16} className="text-amber-400" />
+            <span className="h-px w-14 bg-gradient-to-l from-transparent to-amber-400/70" />
+          </div>
+          <h3 className={`font-display bg-gradient-to-r bg-clip-text text-3xl font-semibold text-transparent ${style.title}`}>{title}</h3>
+          <p className="mx-auto mt-2 max-w-xs text-sm leading-relaxed text-white/80">{body}</p>
+        </div>
       </div>
     </div>
   )

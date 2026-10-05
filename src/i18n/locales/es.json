@@ -59,7 +59,9 @@
       "larimarTitle": "Larimar",
       "larimarBody": "La gema azul turquesa exclusiva de República Dominicana.",
       "amberTitle": "Ámbar",
-      "amberBody": "Resina fosilizada de tonos cálidos, símbolo de nuestra identidad."
+      "amberBody": "Resina fosilizada de tonos cálidos, símbolo de nuestra identidad.",
+      "larimarAlt": "Láminas pulidas de piedra Larimar de color azul turquesa con vetas blancas",
+      "amberAlt": "Piedras de Ámbar pulidas en tonos miel, naranja y marrón"
     },
     "valueProps": {
       "eyebrow": "Propuesta de valor",

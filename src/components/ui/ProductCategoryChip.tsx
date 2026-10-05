@@ -32,7 +32,7 @@ export function ProductCategoryChip({
   return (
     <RevealItem
       className={clsx(
-        'group flex items-start gap-3.5 rounded-2xl p-4 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1',
+        'group flex items-center gap-3.5 rounded-2xl p-4 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1',
         dark
           ? 'border border-white/10 bg-white/5 hover:border-amber-300/40 hover:bg-white/10'
           : 'border border-larimar-100 bg-white/90 shadow-sm hover:shadow-lg hover:shadow-larimar-950/5',
@@ -47,7 +47,7 @@ export function ProductCategoryChip({
       >
         <Icon size={20} strokeWidth={1.8} />
       </div>
-      <div className="min-w-0">
+      <div className="min-w-0 flex-1 text-center">
         <h3 className={clsx('font-display text-sm font-semibold leading-snug sm:text-[0.95rem]', dark ? 'text-white' : 'text-larimar-950')}>{title}</h3>
         {body && <p className={clsx('mt-1 text-xs leading-relaxed sm:text-[0.8rem]', dark ? 'text-white/65' : 'text-larimar-700/70')}>{body}</p>}
       </div>
