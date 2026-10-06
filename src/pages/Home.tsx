@@ -13,6 +13,7 @@ import { valuePropIcons } from '../data/products'
 import { pillarIcons, sectorIcons } from '../data/sectors'
 import { src, IMAGES } from '../data/images'
 import storeTeamPhoto from '../assets/photos/equipo-tienda-rijo-suplidora.jpg'
+import logoIcon from '../assets/brand/logo-icon.png'
 import larimarHomePhoto from '../assets/photos/piedra-larimar-inicio-rijo-suplidora.webp'
 import amberHomePhoto from '../assets/photos/piedra-ambar-inicio-rijo-suplidora.webp'
 import { site } from '../data/site'
@@ -51,6 +52,32 @@ export function Home({ locale }: { locale: Locale }) {
         <div className="absolute inset-0 bg-gradient-to-t from-larimar-950 via-larimar-950/75 to-larimar-950/40" />
         <div className="absolute inset-0 bg-gradient-to-r from-larimar-950/80 via-transparent to-amber-950/30" />
         <div aria-hidden className="bg-grain absolute inset-0" />
+
+        {/*
+          "Sombra" del monograma del logo (las iniciales S y R) en el lado del cielo/playa. Se usa
+          el propio PNG del isotipo como MÁSCARA (solo cuenta su transparencia) y se rellena con un
+          degradado blanco muy tenue: así queda como una silueta fantasma de un solo tono, sin los
+          colores del logo, que se funde con la foto. Es decorativa (`aria-hidden`, sin eventos) y
+          solo se muestra desde `xl` (≥1280 px), donde hay espacio libre a la derecha del titular
+          sin que la silueta se monte sobre el texto.
+        */}
+        <motion.div
+          aria-hidden
+          initial={{ opacity: 0, scale: 0.94 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+          className="pointer-events-none absolute right-[6%] top-1/2 hidden aspect-square w-[min(36vw,560px)] -translate-y-[46%] bg-gradient-to-b from-white/25 via-white/10 to-white/[0.03] blur-[1px] xl:block"
+          style={{
+            WebkitMaskImage: `url(${logoIcon})`,
+            maskImage: `url(${logoIcon})`,
+            WebkitMaskSize: 'contain',
+            maskSize: 'contain',
+            WebkitMaskRepeat: 'no-repeat',
+            maskRepeat: 'no-repeat',
+            WebkitMaskPosition: 'center',
+            maskPosition: 'center',
+          }}
+        />
 
         <Container className="relative py-24">
           <motion.div
@@ -94,18 +121,31 @@ export function Home({ locale }: { locale: Locale }) {
         <Container className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
           <SectionHeading eyebrow={t('home.intro.eyebrow')} title={t('home.intro.title')} subtitle={t('home.intro.body')} />
           <Reveal direction="right" className="relative">
-            <div className="relative overflow-hidden rounded-3xl shadow-glow">
-              <img
-                src={storeTeamPhoto}
-                alt={t('home.intro.imageAlt')}
-                loading="lazy"
-                className="aspect-[4/5] w-full object-cover"
-              />
-            </div>
-            <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-white p-5 shadow-xl sm:block">
-              <p className="font-display text-2xl font-semibold text-larimar-900">
-                {new Date().getFullYear() - site.founded}+ <span className="text-sm font-medium text-larimar-600">{t('common.years')}</span>
-              </p>
+            {/*
+              Tres capas, cada una con UNA sola responsabilidad (así ninguna transformación pisa a otra):
+              1. group      -> detecta el hover para todo el conjunto (foto + insignia).
+              2. animate-float -> flotación continua (translateY en @keyframes).
+              3. rotate/scale  -> inclinación en reposo que se endereza y crece al hover.
+              La insignia de años vive dentro de la capa 3 para moverse junto con la foto.
+            */}
+            <div className="group relative">
+              <div className="animate-float">
+                <div className="relative rotate-[1.5deg] transition-transform duration-700 ease-out group-hover:rotate-0 group-hover:scale-[1.03] sm:rotate-2">
+                  <div className="relative overflow-hidden rounded-3xl shadow-glow transition-shadow duration-500 group-hover:shadow-glow-amber">
+                    <img
+                      src={storeTeamPhoto}
+                      alt={t('home.intro.imageAlt')}
+                      loading="lazy"
+                      className="aspect-[4/5] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-white p-5 shadow-xl sm:block">
+                    <p className="font-display text-2xl font-semibold text-larimar-900">
+                      {new Date().getFullYear() - site.founded}+ <span className="text-sm font-medium text-larimar-600">{t('common.years')}</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </Reveal>
         </Container>
