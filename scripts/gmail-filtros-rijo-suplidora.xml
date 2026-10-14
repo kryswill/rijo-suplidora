@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Filtros Rijo Suplidora</title>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='to' value='administracion@rijosuplidora.com'/>
+		<apps:property name='label' value='Administración'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='to' value='finanzas@rijosuplidora.com'/>
+		<apps:property name='label' value='Finanzas'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='to' value='comercial@rijosuplidora.com'/>
+		<apps:property name='label' value='Comercial'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='to' value='ventas@rijosuplidora.com'/>
+		<apps:property name='label' value='Ventas'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='to' value='compras@rijosuplidora.com'/>
+		<apps:property name='label' value='Compras'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='to' value='contacto@rijosuplidora.com'/>
+		<apps:property name='label' value='Contacto'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='to' value='rrhh@rijosuplidora.com'/>
+		<apps:property name='label' value='RRHH'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+</feed>

@@ -58,7 +58,13 @@ export function getAlternatePaths(pathname: string): Record<Locale, string> {
   return { es: paths.es[key], en: paths.en[key] }
 }
 
-export const SITE_URL = 'https://www.rijosuplidora.com'
+/**
+ * URL canónica de producción: dominio raíz, sin "www".
+ * Es la ÚNICA fuente de verdad para canonical, hreflang, Open Graph y JSON-LD
+ * (todo pasa por absoluteUrl). Debe coincidir con public/robots.txt y public/sitemap.xml.
+ * El host "www" redirige con 301 a este dominio (Cloudflare Bulk Redirects).
+ */
+export const SITE_URL = 'https://rijosuplidora.com'
 
 export function absoluteUrl(pathname: string): string {
   return `${SITE_URL}${pathname === '/' ? '' : pathname}`

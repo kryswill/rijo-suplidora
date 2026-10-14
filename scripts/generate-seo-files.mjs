@@ -7,7 +7,9 @@ import { dirname, resolve } from 'node:path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const PUBLIC_DIR = resolve(__dirname, '..', 'public')
-const SITE_URL = 'https://www.rijosuplidora.com'
+// Dominio canónico de producción (sin "www"). DEBE coincidir con SITE_URL en src/lib/routes.ts:
+// si difieren, el sitemap anuncia URLs distintas a las canonical de cada página.
+const SITE_URL = 'https://rijosuplidora.com'
 
 // Debe reflejar src/lib/routes.ts (paths). Cada entrada es { es, en } — la misma
 // página en ambos idiomas — para poder emitir las etiquetas hreflang alternas.
